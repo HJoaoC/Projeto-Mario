@@ -153,3 +153,44 @@ form textarea {
     transition: 0.5s visibility ease-in-out;
 } 
 
+@media (max-width: 1100px){
+    .logo-mario{
+        display: none;
+    }
+
+    .caixa-mae{
+        padding: 30px;
+        flex-direction: column;
+    }
+
+
+    .caixa-info-texto{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-luidi-mario{
+        height: auto;
+        width: 80%;
+    }
+
+    .caixa-logo-luigui-mario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header{
+        padding: 10px;
+    }
+    
+    .header img {
+        width: 40px;
+    }
+
+    .header a{
+        font-size: 16px;
+    }
+}
